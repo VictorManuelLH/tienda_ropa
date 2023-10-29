@@ -1,0 +1,46 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../assets/imagen\ de\ fondo.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.side-box {
+    width: 50%;
+    height: 100vh;
+    background-color: #313234;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido en el contenedor */
+    align-items: center; /* Centra verticalmente el contenido en el contenedor */
+    width: 50vw; /* Ancho al 100% del viewport (ventana del navegador) */
+    height: 20vh; /* Altura al 100% del viewport */
+}
+
+.input{
+    background-color: #454648;
+    width: 50vh;
+}
+
+.input::placeholder {
+    font-size: 20px; 
+    font-weight: bold;
+    color: #BCB4B4;
+}
+
+.input:hover {
+    background-color: #454648;
+}
+
+.input:focus {
+    background-color: #454648;
+}
