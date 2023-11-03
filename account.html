@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Account</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./styleAccount.css">
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
@@ -41,7 +42,7 @@
                             <a class="link" href="#">Categorias</a>
                         </p>
                         <p class="h5 p-links" >
-                            <a href="./account.html" class="link">
+                            <a href="./index.html" class="link">
                                 Cuenta 
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="#9FB1CA" width="16" height="20" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
                             </a>
@@ -53,72 +54,33 @@
     </header>
 
     <!-- Main -->
-    <main style="background-color: #F5F5F5;">
-        <section class="mt-3">
-            <div id="carouselExample" class="carousel slide">
-                <div class="carousel-inner" id="image">
-                    <div class="carousel-item active">
-                        <img src="./assets/imagen de fondo.jpg" class="d-block w-100" alt="...">
+    <main>
+        <div class="container" style="background-color: #c8c8c8;">
+            <div style="height: 50vh;" class="h5 py-3">
+                <h1 class="text-center">Cuenta</h1>
+                <div class="row mt-4">
+                    <div class="col col-sm-4 col-md-4 col-lg-3">
+                        <img src="./assets/playera.jpeg" alt="">
+                        <button class="btn btn-danger mt-3">Cerrar sesion</button>
                     </div>
-                    <div class="carousel-item">
-                        <img src="./assets/imagen de fondo.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./assets/imagen de fondo.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Anterior</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Siguiente</span>
-                    </button>
-                </div>
-            </div>
-        </section>
-        
-        <!-- tarjetas de productos -->
-        <section>
-            <div class="container">
-                <div class="owl-carousel owl-theme mt-4">
-                    <div data-bs-target="#offcanvasRightProduct" aria-controls="offcanvasRight" type="button" data-bs-toggle="offcanvas" id="btn-product" class="item shadow-sm mb-3 bs-body-color-rgb rounded">
-                        <div style="margin-bottom: 20px;" class="container-fluid card-item shadow">
-                            <div class="row card-section-start">
-                                <div class="col p-0 ">
-                                    <img src="./assets/playera.jpeg" class="shadow-lg" alt="...">
-                                </div>
-                            </div>
-                            <div class="row card-section-body">
-                                <div class="col">
-                                    <h6 class="mb-1">Card title</h6>
-                                    <p style="font-size: 11px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum reprehenderit corporis nesciunt officia architecto molestias aut maiores fugit eos perferendis expedita labore doloremque tenetur deserunt deleniti, facere id, odio sapiente? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum modi vitae ea provident quod, asperiores cupiditate optio amet, id aperiam porro! Voluptatum dolores excepturi quas sit ratione odio rem sunt!</p>
-                                </div>
-                            </div>
-                            <div class="row pt-2 card-section-end">
-                                <div class="col">
-                                    <p class="h3">$999</p>
-                                </div>
-                                <div class="col p-0 text-end">
-                                    <a class="btn btn-sm btn-danger btn-custom-item" target="_blank" href="./caballeros.html">Ver producto</a>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col">
+                        <p class="">Nombre: Nuevo nombre xD</p>
+                        <p class="">Email: nuevonombre@gmail.com</p>
+                        <p class="">Contraseña: *****</p>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <section>
             <div style="height: 50px;">
                 <p class="text-center text-light mt-3">Victor Manuel Luis Hernandez - Diego Eliud Garcia Hernandez | @2024</p>
             </div>
         </section>
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
