@@ -26,21 +26,161 @@ body {
     height: 20vh; /* Altura al 100% del viewport */
 }
 
-.input{
-    background-color: #454648;
-    width: 50vh;
+
+@media (max-width: 430px) {
+    .logo{
+        margin-left: 20vh;
+    }
+
+    .side-box {
+        width: 100%;
+        height: 100vh;
+        background-color: #313234;
+    }
+
+    .input{
+        background-color: #454648;
+        width: 40vh;
+        height: 3rem;
+        border: none; 
+    }
+
+    .input::placeholder {
+        font-size: 15px; 
+        font-weight: bold;
+        color: #BCB4B4;
+    }
+
+    .input:hover {
+        background-color: #454648;
+    }
+
+    .input:focus {
+        background-color: #454648;
+    }
+
+    .login_boton{
+        width: 12rem;
+        border-radius: 50px;
+    }
+
+    .login_botones{
+        width: 10rem;
+        height: 2.5rem;
+        margin-top: 10px;
+    }
 }
 
-.input::placeholder {
-    font-size: 20px; 
-    font-weight: bold;
-    color: #BCB4B4;
+@media (max-width: 430px) {
+    .logo{
+        margin-left: 28vh;
+    }
+
+    .input{
+        background-color: #454648;
+        width: 44vh;
+        height: 3rem;
+        border: none; 
+    }
+
+    .input::placeholder {
+        font-size: 15px; 
+        font-weight: bold;
+        color: #BCB4B4;
+    }
+
+    .input:hover {
+        background-color: #454648;
+    }
+
+    .input:focus {
+        background-color: #454648;
+    }
+
+    .login_boton{
+        width: 12rem;
+        border-radius: 50px;
+    }
+
+    .login_botones{
+        width: 10rem;
+        height: 2.5rem;
+        margin-top: 10px;
+    }
 }
 
-.input:hover {
-    background-color: #454648;
+@media (min-width: 500px) {
+    .logo{
+        margin-left: 0vh;
+    }
+
+    .input{
+        background-color: #454648;
+        width: 35vh;
+        height: 3rem;
+        border: none; 
+    }
+
+    .input::placeholder {
+        font-size: 15px; 
+        font-weight: bold;
+        color: #BCB4B4;
+    }
+
+    .input:hover {
+        background-color: #454648;
+    }
+
+    .input:focus {
+        background-color: #454648;
+    }
+
+    .login_boton{
+        width: 12rem;
+        border-radius: 50px;
+    }
+
+    .login_botones{
+        width: 10rem;
+        height: 2.5rem;
+        margin-top: 10px;
+    }
 }
 
-.input:focus {
-    background-color: #454648;
+@media (min-width: 768px) {
+    .logo{
+        margin-left: 0vh;
+    }
+
+    .input{
+        background-color: #454648;
+        width: 45vh;
+        height: 3rem;
+        border: none; 
+    }
+
+    .input::placeholder {
+        font-size: 15px; 
+        font-weight: bold;
+        color: #BCB4B4;
+    }
+
+    .input:hover {
+        background-color: #454648;
+    }
+
+    .input:focus {
+        background-color: #454648;
+    }
+
+    .login_boton{
+        width: 12rem;
+        border-radius: 50px;
+    }
+
+    .login_botones{
+        width: 10rem;
+        height: 2.5rem;
+        margin-top: 10px;
+    }
 }
